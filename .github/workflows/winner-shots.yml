@@ -1,0 +1,43 @@
+name: winner-screen shots
+on:
+  push:
+    paths: ['winner-screen/cap/**', '.github/workflows/winner-shots.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  shots:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm i --no-save playwright@1.56.1 && npx playwright install webkit
+      - name: Render each page in WebKit at its own size
+        run: |
+          cat > shot.mjs <<'JS'
+          import { webkit } from 'playwright';
+          import { readdirSync, mkdirSync } from 'node:fs';
+          import { resolve } from 'node:path';
+          const dir = 'winner-screen/cap';
+          mkdirSync('winner-screen/shots', { recursive: true });
+          const b = await webkit.launch();
+          for (const f of readdirSync(dir).filter((f) => f.includes('--') && f.endsWith('.html'))) {
+            const [w, h] = f.replace(/\.html$/, '').split('-').pop().split('x').map(Number);
+            const p = await b.newPage({ viewport: { width: w, height: h }, deviceScaleFactor: 2 });
+            await p.goto('file://' + resolve(dir, f));
+            await p.evaluate(() => document.fonts.ready);
+            await p.waitForTimeout(800);
+            await p.screenshot({ path: `winner-screen/shots/${f.replace(/\.html$/, '.png')}` });
+            console.log('shot', f, w, h);
+          }
+          await b.close();
+          JS
+          node shot.mjs
+      - name: Commit the shots
+        run: |
+          git config user.name "LeelaBot"
+          git config user.email leelabot@farnsworth.tv
+          git add winner-screen/shots
+          git commit -m "winner-screen: WebKit renders" || echo "no change"
+          git push
