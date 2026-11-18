@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cringe Battles · closed winner screen (v0.0.41)</title>
+<style>
+body{margin:0;background:#0b0f0c;color:#eef3e4;font:15px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:22px;margin:0 0 6px} h2{font-size:16px;margin:34px 0 8px;color:#ffc92e}
+.lbl{display:inline-block;background:#ff8a1f;color:#0f1411;font-weight:800;font-size:12px;letter-spacing:.06em;padding:3px 8px;border-radius:6px}
+p{color:#a7b29b;max-width:860px} code{color:#c4ff3a}
+.row{display:flex;flex-wrap:wrap;gap:22px;align-items:flex-start}
+figure{margin:0} figure img{display:block;border:1px solid #2a3a2e;border-radius:8px;max-width:100%}
+figcaption{font-size:13px;color:#cfd8c4;margin-top:6px;max-width:700px}
+figcaption a{color:#7fdcff}
+</style></head><body><main>
+<h1>Closed winner screen, after the reveal (v0.0.41)</h1>
+<p><span class="lbl">REDRAWN, NOT A SCREENSHOT</span> These images are not captures of the running game. They are the real <code>Battle</code> React component, rendered with Battle #27 data (A wins 62/38, 1.2k votes) and laid out with the app's real built CSS at commit-time. Safari's engine (WebKit, via Playwright on a macOS GitHub runner) paints them at each size. Entrance animations are shown in their finished state. Clip thumbnails are placeholders (no video in a still).</p>
+<p>The changes: the winner banner is gone, the title line reads <b>WE HAVE A WINNER...</b> in gold, and the winning card wears the YOUR PICK double stroke (card and video) in gold/orange with the crown set into the top of the frame. That crown replaces the small CRINGIEST chip. If you picked the winner, there's no YOUR PICK badge and the row reads ✓ YOU VOTED A. If you picked the loser, the badge stays on the losing card.</p>
+
+<h2>Picked the winner · inline 700×512</h2>
+<div class="row"><figure><img src="shots/picked-winner--inline-700x512.png" width="700" height="512" alt="Picked the winner, inline 700x512"><figcaption>u/alice voted A, and A won. Clip A has the gold frame and crown, and its row reads ✓ YOU VOTED A · 62%. There's no YOUR PICK badge. <a href="cap/picked-winner--inline-700x512.html">live redraw</a></figcaption></figure></div>
+
+<h2>Picked the loser · inline 700×512</h2>
+<div class="row"><figure><img src="shots/picked-loser--inline-700x512.png" width="700" height="512" alt="Picked the loser, inline 700x512"><figcaption>u/alice voted B, and A won. A has the gold frame and crown. B keeps its YOUR PICK badge, and its row is the plain 38%. <a href="cap/picked-loser--inline-700x512.html">live redraw</a></figcaption></figure></div>
+
+<h2>Phone width · 390×512</h2>
+<div class="row">
+<figure><img src="shots/picked-winner--phone-390x512.png" width="390" height="512" alt="Picked the winner, phone"><figcaption>Picked the winner (phone). <a href="cap/picked-winner--phone-390x512.html">live redraw</a></figcaption></figure>
+<figure><img src="shots/picked-loser--phone-390x512.png" width="390" height="512" alt="Picked the loser, phone"><figcaption>Picked the loser (phone). <a href="cap/picked-loser--phone-390x512.html">live redraw</a></figcaption></figure>
+</div>
+
+<h2>Didn't vote · inline 700×512</h2>
+<div class="row"><figure><img src="shots/no-vote--inline-700x512.png" width="700" height="512" alt="Did not vote"><figcaption>Didn't vote: the winner treatment, with no pick badge anywhere. <a href="cap/no-vote--inline-700x512.html">live redraw</a></figcaption></figure></div>
+
+<h2>Full screen · 1100×760</h2>
+<div class="row">
+<figure><img src="shots/fullscreen-picked-winner--fullscreen-1100x760.png" width="550" alt="Full screen, picked the winner"><figcaption>Full screen, picked the winner. <a href="cap/fullscreen-picked-winner--fullscreen-1100x760.html">live redraw</a></figcaption></figure>
+<figure><img src="shots/fullscreen-picked-loser--fullscreen-1100x760.png" width="550" alt="Full screen, picked the loser"><figcaption>Full screen, picked the loser. <a href="cap/fullscreen-picked-loser--fullscreen-1100x760.html">live redraw</a></figcaption></figure>
+</div>
+</main></body></html>
