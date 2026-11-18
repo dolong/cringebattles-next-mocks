@@ -1,0 +1,205 @@
+{
+  "fullscreen-picked-loser--fullscreen-1100x760.html": {
+    "badgeBox": "140.0x24.0",
+    "badgePixelsPainted": "1699/13440 (12.6%)",
+    "badgeEdgePixelsPainted": 0,
+    "fullCoverageGlyphPixels": 1039,
+    "crownSvgCss": "22x22",
+    "crownGlyphPainted": "16.0x11.5 css px",
+    "frameStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "innerStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "strokesMatch": true,
+    "computed": {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "border": "0px none",
+      "boxShadow": "none",
+      "color": "rgb(255, 201, 46)",
+      "frame": "2px rgb(255, 201, 46)",
+      "mediaStroke": "rgb(255, 201, 46) 0px 0px 0px 2px inset",
+      "title": "none"
+    }
+  },
+  "fullscreen-picked-winner--fullscreen-1100x760.html": {
+    "badgeBox": "140.0x24.0",
+    "badgePixelsPainted": "1699/13440 (12.6%)",
+    "badgeEdgePixelsPainted": 0,
+    "fullCoverageGlyphPixels": 1039,
+    "crownSvgCss": "22x22",
+    "crownGlyphPainted": "16.0x11.5 css px",
+    "frameStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "innerStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "strokesMatch": true,
+    "computed": {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "border": "0px none",
+      "boxShadow": "none",
+      "color": "rgb(255, 201, 46)",
+      "frame": "2px rgb(255, 201, 46)",
+      "mediaStroke": "rgb(255, 201, 46) 0px 0px 0px 2px inset",
+      "title": "none"
+    }
+  },
+  "no-vote--inline-700x512.html": {
+    "badgeBox": "140.0x24.0",
+    "badgePixelsPainted": "1699/13440 (12.6%)",
+    "badgeEdgePixelsPainted": 0,
+    "fullCoverageGlyphPixels": 1039,
+    "crownSvgCss": "22x22",
+    "crownGlyphPainted": "16.0x11.5 css px",
+    "frameStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "innerStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "strokesMatch": true,
+    "computed": {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "border": "0px none",
+      "boxShadow": "none",
+      "color": "rgb(255, 201, 46)",
+      "frame": "2px rgb(255, 201, 46)",
+      "mediaStroke": "rgb(255, 201, 46) 0px 0px 0px 2px inset",
+      "title": "none"
+    }
+  },
+  "picked-loser--inline-700x512.html": {
+    "badgeBox": "140.0x24.0",
+    "badgePixelsPainted": "1699/13440 (12.6%)",
+    "badgeEdgePixelsPainted": 0,
+    "fullCoverageGlyphPixels": 1039,
+    "crownSvgCss": "22x22",
+    "crownGlyphPainted": "16.0x11.5 css px",
+    "frameStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "innerStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "strokesMatch": true,
+    "computed": {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "border": "0px none",
+      "boxShadow": "none",
+      "color": "rgb(255, 201, 46)",
+      "frame": "2px rgb(255, 201, 46)",
+      "mediaStroke": "rgb(255, 201, 46) 0px 0px 0px 2px inset",
+      "title": "none"
+    }
+  },
+  "picked-loser--phone-390x512.html": {
+    "badgeBox": "112.0x20.0",
+    "badgePixelsPainted": "1135/8960 (12.7%)",
+    "badgeEdgePixelsPainted": 0,
+    "fullCoverageGlyphPixels": 639,
+    "crownSvgCss": "18x18",
+    "crownGlyphPainted": "13.0x9.5 css px",
+    "frameStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "innerStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "strokesMatch": true,
+    "computed": {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "border": "0px none",
+      "boxShadow": "none",
+      "color": "rgb(255, 201, 46)",
+      "frame": "2px rgb(255, 201, 46)",
+      "mediaStroke": "rgb(255, 201, 46) 0px 0px 0px 2px inset",
+      "title": "none"
+    }
+  },
+  "picked-winner--inline-700x512.html": {
+    "badgeBox": "140.0x24.0",
+    "badgePixelsPainted": "1699/13440 (12.6%)",
+    "badgeEdgePixelsPainted": 0,
+    "fullCoverageGlyphPixels": 1039,
+    "crownSvgCss": "22x22",
+    "crownGlyphPainted": "16.0x11.5 css px",
+    "frameStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "innerStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "strokesMatch": true,
+    "computed": {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "border": "0px none",
+      "boxShadow": "none",
+      "color": "rgb(255, 201, 46)",
+      "frame": "2px rgb(255, 201, 46)",
+      "mediaStroke": "rgb(255, 201, 46) 0px 0px 0px 2px inset",
+      "title": "none"
+    }
+  },
+  "picked-winner--phone-390x512.html": {
+    "badgeBox": "112.0x20.0",
+    "badgePixelsPainted": "1135/8960 (12.7%)",
+    "badgeEdgePixelsPainted": 0,
+    "fullCoverageGlyphPixels": 639,
+    "crownSvgCss": "18x18",
+    "crownGlyphPainted": "13.0x9.5 css px",
+    "frameStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "innerStrokePixel": [
+      255,
+      201,
+      46
+    ],
+    "strokesMatch": true,
+    "computed": {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "border": "0px none",
+      "boxShadow": "none",
+      "color": "rgb(255, 201, 46)",
+      "frame": "2px rgb(255, 201, 46)",
+      "mediaStroke": "rgb(255, 201, 46) 0px 0px 0px 2px inset",
+      "title": "none"
+    }
+  }
+}
