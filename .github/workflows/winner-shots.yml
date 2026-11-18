@@ -16,76 +16,104 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - run: npm i --no-save playwright@1.56.1 pngjs@7.0.0 && npx playwright install webkit
-      - name: Render each page in WebKit at its own size, then pixel-check the winner card
+      - name: Render each page in WebKit at its own size, then pixel-check the badge stroke and the VS
         run: |
           cat > shot.mjs <<'JS'
           import { webkit } from 'playwright';
           import { PNG } from 'pngjs';
           import { readdirSync, mkdirSync, writeFileSync } from 'node:fs';
           import { resolve } from 'node:path';
-          const dir = 'winner-screen/cap';
           const DPR = 2;
           const GOLD = [255, 201, 46];
-          mkdirSync('winner-screen/shots', { recursive: true });
           const px = (png, x, y) => { const i = (png.width * Math.round(y) + Math.round(x)) * 4; return [png.data[i], png.data[i + 1], png.data[i + 2]]; };
           const dist = (a, b) => Math.max(...a.map((v, i) => Math.abs(v - b[i])));
+          const isGold = (p) => dist(p, GOLD) <= 8;
           const b = await webkit.launch();
           const report = {};
-          for (const f of readdirSync(dir).filter((f) => f.includes('--') && f.endsWith('.html'))) {
-            const [w, h] = f.replace(/\.html$/, '').split('-').pop().split('x').map(Number);
-            const p = await b.newPage({ viewport: { width: w, height: h }, deviceScaleFactor: DPR });
-            await p.goto('file://' + resolve(dir, f));
-            await p.evaluate(() => document.fonts.ready);
-            await p.waitForTimeout(800);
-            const shot = await p.screenshot({ path: `winner-screen/shots/${f.replace(/\.html$/, '.png')}` });
-            console.log('shot', f, w, h);
-            // Pixel check: diff the page with the badge hidden vs shown. Whatever differs is what the badge paints.
-            const g = await p.evaluate(() => {
-              const r = (el) => { const b = el.getBoundingClientRect(); return { x: b.left, y: b.top, w: b.width, h: b.height }; };
-              const crown = document.querySelector('.pv-crown');
-              const card = crown.closest('.pv-card');
-              const media = card.querySelector('.pv-media');
-              const cs = getComputedStyle(crown);
-              const fr = getComputedStyle(card, '::before');
-              return {
-                badge: r(crown), svg: r(crown.querySelector('svg')), card: r(card), media: r(media),
-                css: { background: cs.backgroundColor, backgroundImage: cs.backgroundImage, border: cs.borderTopWidth + ' ' + cs.borderTopStyle, boxShadow: cs.boxShadow, color: cs.color, frame: fr.borderTopWidth + ' ' + fr.borderTopColor, mediaStroke: getComputedStyle(media, '::after').boxShadow, title: getComputedStyle(document.querySelector('.pv-q-won')).textShadow },
+          for (const [dir, out, tag] of [['winner-screen/cap', 'winner-screen/shots', ''], ['winner-screen/cap/v043', 'winner-screen/shots/v043', 'v043/']]) {
+            mkdirSync(out, { recursive: true });
+            for (const f of readdirSync(dir).filter((f) => f.includes('--') && f.endsWith('.html'))) {
+              const [w, h] = f.replace(/\.html$/, '').split('-').pop().split('x').map(Number);
+              const p = await b.newPage({ viewport: { width: w, height: h }, deviceScaleFactor: DPR });
+              await p.goto('file://' + resolve(dir, f));
+              await p.evaluate(() => document.fonts.ready);
+              await p.waitForTimeout(800);
+              const shot = await p.screenshot({ path: `${out}/${f.replace(/\.html$/, '.png')}` });
+              const g = await p.evaluate(() => {
+                const r = (el) => { const b = el.getBoundingClientRect(); return { x: b.left, y: b.top, w: b.width, h: b.height }; };
+                const crown = document.querySelector('.pv-crown');
+                const card = crown.closest('.pv-card');
+                const cs = getComputedStyle(crown);
+                const vs = document.querySelector('.pv-vs');
+                const core = vs.querySelector('.pv-vs-core');
+                const vc = getComputedStyle(core);
+                return {
+                  fonts: [...document.fonts].filter((f) => f.status === 'loaded').map((f) => f.family + ' ' + f.weight).join(', '),
+                  badge: r(crown), card: r(card), cards: [...document.querySelectorAll('.pv-card')].map(r), core: r(core),
+                  badgeCss: { background: cs.backgroundColor, backgroundImage: cs.backgroundImage, border: `${cs.borderTopWidth} ${cs.borderTopStyle} ${cs.borderTopColor}`, radius: cs.borderTopLeftRadius, boxShadow: cs.boxShadow, color: cs.color, height: cs.height, top: cs.top },
+                  vsCss: { zIndex: getComputedStyle(vs).zIndex, className: vs.className, background: vc.backgroundColor, backgroundImage: vc.backgroundImage, border: `${vc.borderTopWidth} ${vc.borderTopStyle} ${vc.borderTopColor}`, boxShadow: vc.boxShadow, textShadow: vc.textShadow, color: vc.color, size: `${core.offsetWidth}x${core.offsetHeight}` },
+                };
+              });
+              await p.addStyleTag({ content: '.pv-crown{visibility:hidden!important}' });
+              const offBadge = PNG.sync.read(await p.screenshot());
+              await p.addStyleTag({ content: '.pv-card::before,.pv-card .pv-media::after{visibility:hidden!important}' });
+              const offStrokes = PNG.sync.read(await p.screenshot());
+              const on = PNG.sync.read(shot);
+              // Badge stroke: the middle of each side of its outline, plus the share of the 2px band painted gold.
+              const bx = g.badge;
+              const side = {
+                top: px(on, (bx.x + bx.w / 2) * DPR, (bx.y + 1) * DPR),
+                bottom: px(on, (bx.x + bx.w / 2) * DPR, (bx.y + bx.h - 1) * DPR),
+                left: px(on, (bx.x + 1) * DPR, (bx.y + bx.h / 2) * DPR),
+                right: px(on, (bx.x + bx.w - 1) * DPR, (bx.y + bx.h / 2) * DPR),
               };
-            });
-            await p.addStyleTag({ content: '.pv-crown{visibility:hidden!important}' });
-            const off = PNG.sync.read(await p.screenshot());
-            const on = PNG.sync.read(shot);
-            const bx = g.badge;
-            let total = 0, changed = 0, edge = 0, solid = [], glyph = { x0: 1e9, x1: -1, y0: 1e9, y1: -1 };
-            for (let y = Math.floor(bx.y * DPR); y < Math.ceil((bx.y + bx.h) * DPR); y++) {
-              for (let x = Math.floor(bx.x * DPR); x < Math.ceil((bx.x + bx.w) * DPR); x++) {
-                total++;
-                const a = px(on, x, y), c = px(off, x, y);
-                if (dist(a, c) <= 6) continue;
-                changed++;
-                const ex = x - bx.x * DPR, ey = y - bx.y * DPR;
-                if (ex < 2 || ey < 2 || ex > bx.w * DPR - 3 || ey > bx.h * DPR - 3) edge++;
-                if (dist(a, GOLD) <= 8) solid.push(a);
-                if (x < (g.svg.x + g.svg.w) * DPR) { glyph.x0 = Math.min(glyph.x0, x); glyph.x1 = Math.max(glyph.x1, x); glyph.y0 = Math.min(glyph.y0, y); glyph.y1 = Math.max(glyph.y1, y); }
+              let band = 0, bandGold = 0, changed = 0, total = 0;
+              for (let y = Math.floor(bx.y * DPR); y < Math.ceil((bx.y + bx.h) * DPR); y++) {
+                for (let x = Math.floor(bx.x * DPR); x < Math.ceil((bx.x + bx.w) * DPR); x++) {
+                  total++;
+                  const a = px(on, x, y);
+                  if (dist(a, px(offBadge, x, y)) > 6) changed++;
+                  const ex = x - bx.x * DPR, ey = y - bx.y * DPR;
+                  if (ex < 4 || ey < 4 || ex >= bx.w * DPR - 4 || ey >= bx.h * DPR - 4) { band++; if (isGold(a)) bandGold++; }
+                }
               }
+              // Frame gap: walk left from the badge along the frame line (card top edge) to the first gold pixel.
+              let gx = Math.floor(bx.x * DPR) - 1;
+              const lineY = g.card.y * DPR;
+              while (gx > 0 && !isGold(px(offBadge, gx, lineY))) gx--;
+              const gapLeft = (Math.floor(bx.x * DPR) - 1 - gx) / DPR;
+              // VS: inside its disc, does hiding every card stroke + the badge change any pixel? If the VS is on top, no.
+              const c = g.core, cx = (c.x + c.w / 2) * DPR, cy = (c.y + c.h / 2) * DPR, rr = (c.w / 2) * DPR;
+              let disc = 0, crossed = 0, goldInDisc = 0;
+              for (let y = Math.floor(cy - rr); y <= Math.ceil(cy + rr); y++) {
+                for (let x = Math.floor(cx - rr); x <= Math.ceil(cx + rr); x++) {
+                  if ((x - cx) ** 2 + (y - cy) ** 2 > (rr - 1) ** 2) continue;
+                  disc++;
+                  const a = px(on, x, y);
+                  if (dist(a, px(offStrokes, x, y)) > 6) crossed++;
+                  if (isGold(a)) goldInDisc++;
+                }
+              }
+              const overlap = g.cards.map((k) => Math.max(0, Math.min(k.x + k.w, c.x + c.w) - Math.max(k.x, c.x)));
+              report[tag + f] = {
+                badgeBox: `${bx.w.toFixed(1)}x${bx.h.toFixed(1)}`,
+                badgeStrokeSides: side,
+                badgeStrokeAllGold: Object.values(side).every((v) => dist(v, GOLD) <= 2),
+                badgeBandGold: `${bandGold}/${band} (${((100 * bandGold) / band).toFixed(1)}%)`,
+                badgePixelsPainted: `${changed}/${total} (${((100 * changed) / total).toFixed(1)}%)`,
+                frameGapEachSideCssPx: gapLeft,
+                vsDiscPx: disc,
+                vsDiscPxChangedByHidingStrokes: crossed,
+                vsDiscGoldPx: goldInDisc,
+                vsOverlapsCardsCssPx: overlap.map((v) => +v.toFixed(1)),
+                vsOnTop: crossed === 0 && goldInDisc === 0,
+                badgeCss: g.badgeCss,
+                vsCss: g.vsCss,
+                fonts: g.fonts,
+              };
+              console.log(tag + f, JSON.stringify(report[tag + f]));
+              await p.close();
             }
-            // Strokes: middle of the card's left frame line, and the video's inner stroke 1px in from its left edge.
-            const midY = (g.media.y + g.media.h / 2) * DPR;
-            const frame = px(on, g.card.x * DPR, midY);
-            const inner = px(on, (g.media.x + 1) * DPR, midY);
-            report[f] = {
-              badgeBox: `${bx.w.toFixed(1)}x${bx.h.toFixed(1)}`,
-              badgePixelsPainted: `${changed}/${total} (${((100 * changed) / total).toFixed(1)}%)`,
-              badgeEdgePixelsPainted: edge,
-              fullCoverageGlyphPixels: solid.length,
-              crownSvgCss: `${g.svg.w}x${g.svg.h}`,
-              crownGlyphPainted: glyph.x1 < 0 ? 'none' : `${((glyph.x1 - glyph.x0 + 1) / DPR).toFixed(1)}x${((glyph.y1 - glyph.y0 + 1) / DPR).toFixed(1)} css px`,
-              frameStrokePixel: frame, innerStrokePixel: inner,
-              strokesMatch: dist(frame, inner) <= 2 && dist(frame, GOLD) <= 2,
-              computed: g.css,
-            };
-            console.log(f, JSON.stringify(report[f]));
-            await p.close();
           }
           await b.close();
           writeFileSync('winner-screen/shots/pixel-check.json', JSON.stringify(report, null, 2));
