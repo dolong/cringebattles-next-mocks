@@ -34,7 +34,56 @@
       0,
       0
     ],
+    "vsDiscDividerPx": 0,
     "vsOnTop": true,
+    "vsFillSamples": {
+      "top": [
+        15,
+        20,
+        17
+      ],
+      "bottom": [
+        15,
+        20,
+        17
+      ],
+      "left": [
+        15,
+        20,
+        17
+      ],
+      "right": [
+        15,
+        20,
+        17
+      ]
+    },
+    "vsFillDarkOpaque": true,
+    "vsFillBgPx": "4497/4497",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "438/438 (100.0%)",
+    "vsRingPainted": true,
     "badgeCss": {
       "background": "rgba(0, 0, 0, 0)",
       "backgroundImage": "none",
@@ -46,14 +95,15 @@
       "top": "-15px"
     },
     "vsCss": {
+      "opacity": "1",
       "zIndex": "5",
       "className": "pv-vs is-won",
-      "background": "rgb(196, 255, 58)",
+      "background": "rgb(15, 20, 17)",
       "backgroundImage": "none",
-      "border": "0px none rgb(15, 20, 17)",
+      "border": "1.5px solid rgb(196, 255, 58)",
       "boxShadow": "none",
       "textShadow": "none",
-      "color": "rgb(15, 20, 17)",
+      "color": "rgb(196, 255, 58)",
       "size": "52x52"
     },
     "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
@@ -93,7 +143,56 @@
       0,
       0
     ],
+    "vsDiscDividerPx": 0,
     "vsOnTop": true,
+    "vsFillSamples": {
+      "top": [
+        15,
+        20,
+        17
+      ],
+      "bottom": [
+        15,
+        20,
+        17
+      ],
+      "left": [
+        15,
+        20,
+        17
+      ],
+      "right": [
+        15,
+        20,
+        17
+      ]
+    },
+    "vsFillDarkOpaque": true,
+    "vsFillBgPx": "4497/4497",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "438/438 (100.0%)",
+    "vsRingPainted": true,
     "badgeCss": {
       "background": "rgba(0, 0, 0, 0)",
       "backgroundImage": "none",
@@ -105,14 +204,15 @@
       "top": "-15px"
     },
     "vsCss": {
+      "opacity": "1",
       "zIndex": "5",
       "className": "pv-vs is-won",
-      "background": "rgb(196, 255, 58)",
+      "background": "rgb(15, 20, 17)",
       "backgroundImage": "none",
-      "border": "0px none rgb(15, 20, 17)",
+      "border": "1.5px solid rgb(196, 255, 58)",
       "boxShadow": "none",
       "textShadow": "none",
-      "color": "rgb(15, 20, 17)",
+      "color": "rgb(196, 255, 58)",
       "size": "52x52"
     },
     "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
@@ -152,7 +252,56 @@
       0,
       0
     ],
+    "vsDiscDividerPx": 0,
     "vsOnTop": true,
+    "vsFillSamples": {
+      "top": [
+        15,
+        20,
+        17
+      ],
+      "bottom": [
+        15,
+        20,
+        17
+      ],
+      "left": [
+        15,
+        20,
+        17
+      ],
+      "right": [
+        15,
+        20,
+        17
+      ]
+    },
+    "vsFillDarkOpaque": true,
+    "vsFillBgPx": "4497/4497",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "438/438 (100.0%)",
+    "vsRingPainted": true,
     "badgeCss": {
       "background": "rgba(0, 0, 0, 0)",
       "backgroundImage": "none",
@@ -164,14 +313,15 @@
       "top": "-15px"
     },
     "vsCss": {
+      "opacity": "1",
       "zIndex": "5",
       "className": "pv-vs is-won",
-      "background": "rgb(196, 255, 58)",
+      "background": "rgb(15, 20, 17)",
       "backgroundImage": "none",
-      "border": "0px none rgb(15, 20, 17)",
+      "border": "1.5px solid rgb(196, 255, 58)",
       "boxShadow": "none",
       "textShadow": "none",
-      "color": "rgb(15, 20, 17)",
+      "color": "rgb(196, 255, 58)",
       "size": "52x52"
     },
     "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
@@ -211,7 +361,56 @@
       0,
       0
     ],
+    "vsDiscDividerPx": 0,
     "vsOnTop": true,
+    "vsFillSamples": {
+      "top": [
+        15,
+        20,
+        17
+      ],
+      "bottom": [
+        15,
+        20,
+        17
+      ],
+      "left": [
+        15,
+        20,
+        17
+      ],
+      "right": [
+        15,
+        20,
+        17
+      ]
+    },
+    "vsFillDarkOpaque": true,
+    "vsFillBgPx": "4497/4497",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "438/438 (100.0%)",
+    "vsRingPainted": true,
     "badgeCss": {
       "background": "rgba(0, 0, 0, 0)",
       "backgroundImage": "none",
@@ -223,14 +422,15 @@
       "top": "-15px"
     },
     "vsCss": {
+      "opacity": "1",
       "zIndex": "5",
       "className": "pv-vs is-won",
-      "background": "rgb(196, 255, 58)",
+      "background": "rgb(15, 20, 17)",
       "backgroundImage": "none",
-      "border": "0px none rgb(15, 20, 17)",
+      "border": "1.5px solid rgb(196, 255, 58)",
       "boxShadow": "none",
       "textShadow": "none",
-      "color": "rgb(15, 20, 17)",
+      "color": "rgb(196, 255, 58)",
       "size": "52x52"
     },
     "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
@@ -270,7 +470,56 @@
       8,
       8
     ],
+    "vsDiscDividerPx": 0,
     "vsOnTop": true,
+    "vsFillSamples": {
+      "top": [
+        15,
+        20,
+        17
+      ],
+      "bottom": [
+        15,
+        20,
+        17
+      ],
+      "left": [
+        15,
+        20,
+        17
+      ],
+      "right": [
+        15,
+        20,
+        17
+      ]
+    },
+    "vsFillDarkOpaque": true,
+    "vsFillBgPx": "2017/2017",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "306/306 (100.0%)",
+    "vsRingPainted": true,
     "badgeCss": {
       "background": "rgba(0, 0, 0, 0)",
       "backgroundImage": "none",
@@ -282,14 +531,15 @@
       "top": "-13px"
     },
     "vsCss": {
+      "opacity": "1",
       "zIndex": "5",
       "className": "pv-vs is-won",
-      "background": "rgb(196, 255, 58)",
+      "background": "rgb(15, 20, 17)",
       "backgroundImage": "none",
-      "border": "0px none rgb(15, 20, 17)",
+      "border": "1.5px solid rgb(196, 255, 58)",
       "boxShadow": "none",
       "textShadow": "none",
-      "color": "rgb(15, 20, 17)",
+      "color": "rgb(196, 255, 58)",
       "size": "38x38"
     },
     "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
@@ -329,7 +579,56 @@
       0,
       0
     ],
+    "vsDiscDividerPx": 0,
     "vsOnTop": true,
+    "vsFillSamples": {
+      "top": [
+        15,
+        20,
+        17
+      ],
+      "bottom": [
+        15,
+        20,
+        17
+      ],
+      "left": [
+        15,
+        20,
+        17
+      ],
+      "right": [
+        15,
+        20,
+        17
+      ]
+    },
+    "vsFillDarkOpaque": true,
+    "vsFillBgPx": "4497/4497",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "438/438 (100.0%)",
+    "vsRingPainted": true,
     "badgeCss": {
       "background": "rgba(0, 0, 0, 0)",
       "backgroundImage": "none",
@@ -341,14 +640,15 @@
       "top": "-15px"
     },
     "vsCss": {
+      "opacity": "1",
       "zIndex": "5",
       "className": "pv-vs is-won",
-      "background": "rgb(196, 255, 58)",
+      "background": "rgb(15, 20, 17)",
       "backgroundImage": "none",
-      "border": "0px none rgb(15, 20, 17)",
+      "border": "1.5px solid rgb(196, 255, 58)",
       "boxShadow": "none",
       "textShadow": "none",
-      "color": "rgb(15, 20, 17)",
+      "color": "rgb(196, 255, 58)",
       "size": "52x52"
     },
     "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
@@ -388,7 +688,56 @@
       8,
       8
     ],
+    "vsDiscDividerPx": 0,
     "vsOnTop": true,
+    "vsFillSamples": {
+      "top": [
+        15,
+        20,
+        17
+      ],
+      "bottom": [
+        15,
+        20,
+        17
+      ],
+      "left": [
+        15,
+        20,
+        17
+      ],
+      "right": [
+        15,
+        20,
+        17
+      ]
+    },
+    "vsFillDarkOpaque": true,
+    "vsFillBgPx": "2017/2017",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "306/306 (100.0%)",
+    "vsRingPainted": true,
     "badgeCss": {
       "background": "rgba(0, 0, 0, 0)",
       "backgroundImage": "none",
@@ -400,6 +749,552 @@
       "top": "-13px"
     },
     "vsCss": {
+      "opacity": "1",
+      "zIndex": "5",
+      "className": "pv-vs is-won",
+      "background": "rgb(15, 20, 17)",
+      "backgroundImage": "none",
+      "border": "1.5px solid rgb(196, 255, 58)",
+      "boxShadow": "none",
+      "textShadow": "none",
+      "color": "rgb(196, 255, 58)",
+      "size": "38x38"
+    },
+    "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
+  },
+  "v044/fullscreen-picked-loser--fullscreen-1100x760.html": {
+    "badgeBox": "140.0x20.0",
+    "badgeStrokeSides": {
+      "top": [
+        255,
+        201,
+        46
+      ],
+      "bottom": [
+        255,
+        201,
+        46
+      ],
+      "left": [
+        255,
+        201,
+        46
+      ],
+      "right": [
+        255,
+        201,
+        46
+      ]
+    },
+    "badgeStrokeAllGold": true,
+    "badgeBandGold": "2232/2496 (89.4%)",
+    "badgePixelsPainted": "4991/11200 (44.6%)",
+    "frameGapEachSideCssPx": 8,
+    "vsDiscPx": 8173,
+    "vsDiscPxChangedByHidingStrokes": 0,
+    "vsDiscGoldPx": 0,
+    "vsOverlapsCardsCssPx": [
+      0,
+      0
+    ],
+    "vsDiscDividerPx": 0,
+    "vsOnTop": true,
+    "vsFillSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsFillDarkOpaque": false,
+    "vsFillBgPx": "0/4497",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "438/438 (100.0%)",
+    "vsRingPainted": true,
+    "badgeCss": {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "border": "2px solid rgb(255, 201, 46)",
+      "radius": "8px",
+      "boxShadow": "none",
+      "color": "rgb(255, 201, 46)",
+      "height": "20px",
+      "top": "-15px"
+    },
+    "vsCss": {
+      "opacity": "1",
+      "zIndex": "5",
+      "className": "pv-vs is-won",
+      "background": "rgb(196, 255, 58)",
+      "backgroundImage": "none",
+      "border": "0px none rgb(15, 20, 17)",
+      "boxShadow": "none",
+      "textShadow": "none",
+      "color": "rgb(15, 20, 17)",
+      "size": "52x52"
+    },
+    "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
+  },
+  "v044/fullscreen-picked-winner--fullscreen-1100x760.html": {
+    "badgeBox": "140.0x20.0",
+    "badgeStrokeSides": {
+      "top": [
+        255,
+        201,
+        46
+      ],
+      "bottom": [
+        255,
+        201,
+        46
+      ],
+      "left": [
+        255,
+        201,
+        46
+      ],
+      "right": [
+        255,
+        201,
+        46
+      ]
+    },
+    "badgeStrokeAllGold": true,
+    "badgeBandGold": "2232/2496 (89.4%)",
+    "badgePixelsPainted": "4991/11200 (44.6%)",
+    "frameGapEachSideCssPx": 8,
+    "vsDiscPx": 8173,
+    "vsDiscPxChangedByHidingStrokes": 0,
+    "vsDiscGoldPx": 0,
+    "vsOverlapsCardsCssPx": [
+      0,
+      0
+    ],
+    "vsDiscDividerPx": 0,
+    "vsOnTop": true,
+    "vsFillSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsFillDarkOpaque": false,
+    "vsFillBgPx": "0/4497",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "438/438 (100.0%)",
+    "vsRingPainted": true,
+    "badgeCss": {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "border": "2px solid rgb(255, 201, 46)",
+      "radius": "8px",
+      "boxShadow": "none",
+      "color": "rgb(255, 201, 46)",
+      "height": "20px",
+      "top": "-15px"
+    },
+    "vsCss": {
+      "opacity": "1",
+      "zIndex": "5",
+      "className": "pv-vs is-won",
+      "background": "rgb(196, 255, 58)",
+      "backgroundImage": "none",
+      "border": "0px none rgb(15, 20, 17)",
+      "boxShadow": "none",
+      "textShadow": "none",
+      "color": "rgb(15, 20, 17)",
+      "size": "52x52"
+    },
+    "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
+  },
+  "v044/no-vote--inline-700x512.html": {
+    "badgeBox": "140.0x20.0",
+    "badgeStrokeSides": {
+      "top": [
+        255,
+        201,
+        46
+      ],
+      "bottom": [
+        255,
+        201,
+        46
+      ],
+      "left": [
+        255,
+        201,
+        46
+      ],
+      "right": [
+        255,
+        201,
+        46
+      ]
+    },
+    "badgeStrokeAllGold": true,
+    "badgeBandGold": "2232/2496 (89.4%)",
+    "badgePixelsPainted": "4991/11200 (44.6%)",
+    "frameGapEachSideCssPx": 8,
+    "vsDiscPx": 8173,
+    "vsDiscPxChangedByHidingStrokes": 0,
+    "vsDiscGoldPx": 0,
+    "vsOverlapsCardsCssPx": [
+      0,
+      0
+    ],
+    "vsDiscDividerPx": 0,
+    "vsOnTop": true,
+    "vsFillSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsFillDarkOpaque": false,
+    "vsFillBgPx": "0/4497",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "438/438 (100.0%)",
+    "vsRingPainted": true,
+    "badgeCss": {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "border": "2px solid rgb(255, 201, 46)",
+      "radius": "8px",
+      "boxShadow": "none",
+      "color": "rgb(255, 201, 46)",
+      "height": "20px",
+      "top": "-15px"
+    },
+    "vsCss": {
+      "opacity": "1",
+      "zIndex": "5",
+      "className": "pv-vs is-won",
+      "background": "rgb(196, 255, 58)",
+      "backgroundImage": "none",
+      "border": "0px none rgb(15, 20, 17)",
+      "boxShadow": "none",
+      "textShadow": "none",
+      "color": "rgb(15, 20, 17)",
+      "size": "52x52"
+    },
+    "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
+  },
+  "v044/picked-loser--inline-700x512.html": {
+    "badgeBox": "140.0x20.0",
+    "badgeStrokeSides": {
+      "top": [
+        255,
+        201,
+        46
+      ],
+      "bottom": [
+        255,
+        201,
+        46
+      ],
+      "left": [
+        255,
+        201,
+        46
+      ],
+      "right": [
+        255,
+        201,
+        46
+      ]
+    },
+    "badgeStrokeAllGold": true,
+    "badgeBandGold": "2232/2496 (89.4%)",
+    "badgePixelsPainted": "4991/11200 (44.6%)",
+    "frameGapEachSideCssPx": 8,
+    "vsDiscPx": 8173,
+    "vsDiscPxChangedByHidingStrokes": 0,
+    "vsDiscGoldPx": 0,
+    "vsOverlapsCardsCssPx": [
+      0,
+      0
+    ],
+    "vsDiscDividerPx": 0,
+    "vsOnTop": true,
+    "vsFillSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsFillDarkOpaque": false,
+    "vsFillBgPx": "0/4497",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "438/438 (100.0%)",
+    "vsRingPainted": true,
+    "badgeCss": {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "border": "2px solid rgb(255, 201, 46)",
+      "radius": "8px",
+      "boxShadow": "none",
+      "color": "rgb(255, 201, 46)",
+      "height": "20px",
+      "top": "-15px"
+    },
+    "vsCss": {
+      "opacity": "1",
+      "zIndex": "5",
+      "className": "pv-vs is-won",
+      "background": "rgb(196, 255, 58)",
+      "backgroundImage": "none",
+      "border": "0px none rgb(15, 20, 17)",
+      "boxShadow": "none",
+      "textShadow": "none",
+      "color": "rgb(15, 20, 17)",
+      "size": "52x52"
+    },
+    "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
+  },
+  "v044/picked-loser--phone-390x512.html": {
+    "badgeBox": "112.0x18.0",
+    "badgeStrokeSides": {
+      "top": [
+        255,
+        201,
+        46
+      ],
+      "bottom": [
+        255,
+        201,
+        46
+      ],
+      "left": [
+        255,
+        201,
+        46
+      ],
+      "right": [
+        255,
+        201,
+        46
+      ]
+    },
+    "badgeStrokeAllGold": true,
+    "badgeBandGold": "1800/2016 (89.3%)",
+    "badgePixelsPainted": "3569/8064 (44.3%)",
+    "frameGapEachSideCssPx": 8,
+    "vsDiscPx": 4293,
+    "vsDiscPxChangedByHidingStrokes": 0,
+    "vsDiscGoldPx": 0,
+    "vsOverlapsCardsCssPx": [
+      8,
+      8
+    ],
+    "vsDiscDividerPx": 0,
+    "vsOnTop": true,
+    "vsFillSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsFillDarkOpaque": false,
+    "vsFillBgPx": "0/2017",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "306/306 (100.0%)",
+    "vsRingPainted": true,
+    "badgeCss": {
+      "background": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none",
+      "border": "2px solid rgb(255, 201, 46)",
+      "radius": "7px",
+      "boxShadow": "none",
+      "color": "rgb(255, 201, 46)",
+      "height": "18px",
+      "top": "-13px"
+    },
+    "vsCss": {
+      "opacity": "1",
       "zIndex": "5",
       "className": "pv-vs is-won",
       "background": "rgb(196, 255, 58)",
@@ -412,13 +1307,13 @@
     },
     "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
   },
-  "v043/fullscreen-picked-loser--fullscreen-1100x760.html": {
-    "badgeBox": "140.0x24.0",
+  "v044/picked-winner--inline-700x512.html": {
+    "badgeBox": "140.0x20.0",
     "badgeStrokeSides": {
       "top": [
-        15,
-        20,
-        17
+        255,
+        201,
+        46
       ],
       "bottom": [
         255,
@@ -426,20 +1321,20 @@
         46
       ],
       "left": [
-        15,
-        20,
-        17
+        255,
+        201,
+        46
       ],
       "right": [
-        15,
-        20,
-        17
+        255,
+        201,
+        46
       ]
     },
-    "badgeStrokeAllGold": false,
-    "badgeBandGold": "560/2560 (21.9%)",
-    "badgePixelsPainted": "2503/13440 (18.6%)",
-    "frameGapEachSideCssPx": 0,
+    "badgeStrokeAllGold": true,
+    "badgeBandGold": "2232/2496 (89.4%)",
+    "badgePixelsPainted": "4991/11200 (44.6%)",
+    "frameGapEachSideCssPx": 8,
     "vsDiscPx": 8173,
     "vsDiscPxChangedByHidingStrokes": 0,
     "vsDiscGoldPx": 0,
@@ -447,37 +1342,87 @@
       0,
       0
     ],
+    "vsDiscDividerPx": 0,
     "vsOnTop": true,
+    "vsFillSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsFillDarkOpaque": false,
+    "vsFillBgPx": "0/4497",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "438/438 (100.0%)",
+    "vsRingPainted": true,
     "badgeCss": {
       "background": "rgba(0, 0, 0, 0)",
       "backgroundImage": "none",
-      "border": "0px none rgb(255, 201, 46)",
-      "radius": "0px",
+      "border": "2px solid rgb(255, 201, 46)",
+      "radius": "8px",
       "boxShadow": "none",
       "color": "rgb(255, 201, 46)",
-      "height": "24px",
+      "height": "20px",
       "top": "-15px"
     },
     "vsCss": {
-      "zIndex": "auto",
-      "className": "pv-vs",
-      "background": "rgb(15, 20, 17)",
+      "opacity": "1",
+      "zIndex": "5",
+      "className": "pv-vs is-won",
+      "background": "rgb(196, 255, 58)",
       "backgroundImage": "none",
-      "border": "1.5px solid rgb(196, 255, 58)",
-      "boxShadow": "rgba(196, 255, 58, 0.5) 0px 0px 20px 0px, rgba(196, 255, 58, 0.25) 0px 0px 12px 0px inset",
-      "textShadow": "rgba(196, 255, 58, 0.8) 0px 0px 10px",
-      "color": "rgb(196, 255, 58)",
+      "border": "0px none rgb(15, 20, 17)",
+      "boxShadow": "none",
+      "textShadow": "none",
+      "color": "rgb(15, 20, 17)",
       "size": "52x52"
     },
     "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
   },
-  "v043/fullscreen-picked-winner--fullscreen-1100x760.html": {
-    "badgeBox": "140.0x24.0",
+  "v044/picked-winner--phone-390x512.html": {
+    "badgeBox": "112.0x18.0",
     "badgeStrokeSides": {
       "top": [
-        15,
-        20,
-        17
+        255,
+        201,
+        46
       ],
       "bottom": [
         255,
@@ -485,342 +1430,97 @@
         46
       ],
       "left": [
-        15,
-        20,
-        17
-      ],
-      "right": [
-        15,
-        20,
-        17
-      ]
-    },
-    "badgeStrokeAllGold": false,
-    "badgeBandGold": "560/2560 (21.9%)",
-    "badgePixelsPainted": "2503/13440 (18.6%)",
-    "frameGapEachSideCssPx": 0,
-    "vsDiscPx": 8173,
-    "vsDiscPxChangedByHidingStrokes": 0,
-    "vsDiscGoldPx": 0,
-    "vsOverlapsCardsCssPx": [
-      0,
-      0
-    ],
-    "vsOnTop": true,
-    "badgeCss": {
-      "background": "rgba(0, 0, 0, 0)",
-      "backgroundImage": "none",
-      "border": "0px none rgb(255, 201, 46)",
-      "radius": "0px",
-      "boxShadow": "none",
-      "color": "rgb(255, 201, 46)",
-      "height": "24px",
-      "top": "-15px"
-    },
-    "vsCss": {
-      "zIndex": "auto",
-      "className": "pv-vs",
-      "background": "rgb(15, 20, 17)",
-      "backgroundImage": "none",
-      "border": "1.5px solid rgb(196, 255, 58)",
-      "boxShadow": "rgba(196, 255, 58, 0.5) 0px 0px 20px 0px, rgba(196, 255, 58, 0.25) 0px 0px 12px 0px inset",
-      "textShadow": "rgba(196, 255, 58, 0.8) 0px 0px 10px",
-      "color": "rgb(196, 255, 58)",
-      "size": "52x52"
-    },
-    "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
-  },
-  "v043/no-vote--inline-700x512.html": {
-    "badgeBox": "140.0x24.0",
-    "badgeStrokeSides": {
-      "top": [
-        15,
-        20,
-        17
-      ],
-      "bottom": [
         255,
         201,
         46
       ],
-      "left": [
-        15,
-        20,
-        17
-      ],
       "right": [
-        15,
-        20,
-        17
-      ]
-    },
-    "badgeStrokeAllGold": false,
-    "badgeBandGold": "560/2560 (21.9%)",
-    "badgePixelsPainted": "2503/13440 (18.6%)",
-    "frameGapEachSideCssPx": 0,
-    "vsDiscPx": 8173,
-    "vsDiscPxChangedByHidingStrokes": 0,
-    "vsDiscGoldPx": 0,
-    "vsOverlapsCardsCssPx": [
-      0,
-      0
-    ],
-    "vsOnTop": true,
-    "badgeCss": {
-      "background": "rgba(0, 0, 0, 0)",
-      "backgroundImage": "none",
-      "border": "0px none rgb(255, 201, 46)",
-      "radius": "0px",
-      "boxShadow": "none",
-      "color": "rgb(255, 201, 46)",
-      "height": "24px",
-      "top": "-15px"
-    },
-    "vsCss": {
-      "zIndex": "auto",
-      "className": "pv-vs",
-      "background": "rgb(15, 20, 17)",
-      "backgroundImage": "none",
-      "border": "1.5px solid rgb(196, 255, 58)",
-      "boxShadow": "rgba(196, 255, 58, 0.5) 0px 0px 20px 0px, rgba(196, 255, 58, 0.25) 0px 0px 12px 0px inset",
-      "textShadow": "rgba(196, 255, 58, 0.8) 0px 0px 10px",
-      "color": "rgb(196, 255, 58)",
-      "size": "52x52"
-    },
-    "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
-  },
-  "v043/picked-loser--inline-700x512.html": {
-    "badgeBox": "140.0x24.0",
-    "badgeStrokeSides": {
-      "top": [
-        15,
-        20,
-        17
-      ],
-      "bottom": [
         255,
         201,
         46
-      ],
-      "left": [
-        15,
-        20,
-        17
-      ],
-      "right": [
-        15,
-        20,
-        17
       ]
     },
-    "badgeStrokeAllGold": false,
-    "badgeBandGold": "560/2560 (21.9%)",
-    "badgePixelsPainted": "2503/13440 (18.6%)",
-    "frameGapEachSideCssPx": 0,
-    "vsDiscPx": 8173,
-    "vsDiscPxChangedByHidingStrokes": 0,
-    "vsDiscGoldPx": 0,
-    "vsOverlapsCardsCssPx": [
-      0,
-      0
-    ],
-    "vsOnTop": true,
-    "badgeCss": {
-      "background": "rgba(0, 0, 0, 0)",
-      "backgroundImage": "none",
-      "border": "0px none rgb(255, 201, 46)",
-      "radius": "0px",
-      "boxShadow": "none",
-      "color": "rgb(255, 201, 46)",
-      "height": "24px",
-      "top": "-15px"
-    },
-    "vsCss": {
-      "zIndex": "auto",
-      "className": "pv-vs",
-      "background": "rgb(15, 20, 17)",
-      "backgroundImage": "none",
-      "border": "1.5px solid rgb(196, 255, 58)",
-      "boxShadow": "rgba(196, 255, 58, 0.5) 0px 0px 20px 0px, rgba(196, 255, 58, 0.25) 0px 0px 12px 0px inset",
-      "textShadow": "rgba(196, 255, 58, 0.8) 0px 0px 10px",
-      "color": "rgb(196, 255, 58)",
-      "size": "52x52"
-    },
-    "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
-  },
-  "v043/picked-loser--phone-390x512.html": {
-    "badgeBox": "112.0x20.0",
-    "badgeStrokeSides": {
-      "top": [
-        15,
-        20,
-        17
-      ],
-      "bottom": [
-        19,
-        28,
-        22
-      ],
-      "left": [
-        15,
-        20,
-        17
-      ],
-      "right": [
-        15,
-        20,
-        17
-      ]
-    },
-    "badgeStrokeAllGold": false,
-    "badgeBandGold": "0/2048 (0.0%)",
-    "badgePixelsPainted": "1573/8960 (17.6%)",
-    "frameGapEachSideCssPx": 0,
+    "badgeStrokeAllGold": true,
+    "badgeBandGold": "1800/2016 (89.3%)",
+    "badgePixelsPainted": "3569/8064 (44.3%)",
+    "frameGapEachSideCssPx": 8,
     "vsDiscPx": 4293,
-    "vsDiscPxChangedByHidingStrokes": 234,
-    "vsDiscGoldPx": 234,
+    "vsDiscPxChangedByHidingStrokes": 0,
+    "vsDiscGoldPx": 0,
     "vsOverlapsCardsCssPx": [
       8,
       8
     ],
-    "vsOnTop": false,
-    "badgeCss": {
-      "background": "rgba(0, 0, 0, 0)",
-      "backgroundImage": "none",
-      "border": "0px none rgb(255, 201, 46)",
-      "radius": "0px",
-      "boxShadow": "none",
-      "color": "rgb(255, 201, 46)",
-      "height": "20px",
-      "top": "-13px"
-    },
-    "vsCss": {
-      "zIndex": "auto",
-      "className": "pv-vs",
-      "background": "rgb(15, 20, 17)",
-      "backgroundImage": "none",
-      "border": "1.5px solid rgb(196, 255, 58)",
-      "boxShadow": "rgba(196, 255, 58, 0.5) 0px 0px 20px 0px, rgba(196, 255, 58, 0.25) 0px 0px 12px 0px inset",
-      "textShadow": "rgba(196, 255, 58, 0.8) 0px 0px 10px",
-      "color": "rgb(196, 255, 58)",
-      "size": "38x38"
-    },
-    "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
-  },
-  "v043/picked-winner--inline-700x512.html": {
-    "badgeBox": "140.0x24.0",
-    "badgeStrokeSides": {
-      "top": [
-        15,
-        20,
-        17
-      ],
-      "bottom": [
-        255,
-        201,
-        46
-      ],
-      "left": [
-        15,
-        20,
-        17
-      ],
-      "right": [
-        15,
-        20,
-        17
-      ]
-    },
-    "badgeStrokeAllGold": false,
-    "badgeBandGold": "560/2560 (21.9%)",
-    "badgePixelsPainted": "2503/13440 (18.6%)",
-    "frameGapEachSideCssPx": 0,
-    "vsDiscPx": 8173,
-    "vsDiscPxChangedByHidingStrokes": 0,
-    "vsDiscGoldPx": 0,
-    "vsOverlapsCardsCssPx": [
-      0,
-      0
-    ],
+    "vsDiscDividerPx": 0,
     "vsOnTop": true,
-    "badgeCss": {
-      "background": "rgba(0, 0, 0, 0)",
-      "backgroundImage": "none",
-      "border": "0px none rgb(255, 201, 46)",
-      "radius": "0px",
-      "boxShadow": "none",
-      "color": "rgb(255, 201, 46)",
-      "height": "24px",
-      "top": "-15px"
-    },
-    "vsCss": {
-      "zIndex": "auto",
-      "className": "pv-vs",
-      "background": "rgb(15, 20, 17)",
-      "backgroundImage": "none",
-      "border": "1.5px solid rgb(196, 255, 58)",
-      "boxShadow": "rgba(196, 255, 58, 0.5) 0px 0px 20px 0px, rgba(196, 255, 58, 0.25) 0px 0px 12px 0px inset",
-      "textShadow": "rgba(196, 255, 58, 0.8) 0px 0px 10px",
-      "color": "rgb(196, 255, 58)",
-      "size": "52x52"
-    },
-    "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
-  },
-  "v043/picked-winner--phone-390x512.html": {
-    "badgeBox": "112.0x20.0",
-    "badgeStrokeSides": {
+    "vsFillSamples": {
       "top": [
-        15,
-        20,
-        17
+        196,
+        255,
+        58
       ],
       "bottom": [
-        19,
-        28,
-        22
+        196,
+        255,
+        58
       ],
       "left": [
-        15,
-        20,
-        17
+        196,
+        255,
+        58
       ],
       "right": [
-        15,
-        20,
-        17
+        196,
+        255,
+        58
       ]
     },
-    "badgeStrokeAllGold": false,
-    "badgeBandGold": "0/2048 (0.0%)",
-    "badgePixelsPainted": "1573/8960 (17.6%)",
-    "frameGapEachSideCssPx": 0,
-    "vsDiscPx": 4293,
-    "vsDiscPxChangedByHidingStrokes": 234,
-    "vsDiscGoldPx": 234,
-    "vsOverlapsCardsCssPx": [
-      8,
-      8
-    ],
-    "vsOnTop": false,
+    "vsFillDarkOpaque": false,
+    "vsFillBgPx": "0/2017",
+    "vsRingSamples": {
+      "top": [
+        196,
+        255,
+        58
+      ],
+      "bottom": [
+        196,
+        255,
+        58
+      ],
+      "left": [
+        196,
+        255,
+        58
+      ],
+      "right": [
+        196,
+        255,
+        58
+      ]
+    },
+    "vsRingLime": "306/306 (100.0%)",
+    "vsRingPainted": true,
     "badgeCss": {
       "background": "rgba(0, 0, 0, 0)",
       "backgroundImage": "none",
-      "border": "0px none rgb(255, 201, 46)",
-      "radius": "0px",
+      "border": "2px solid rgb(255, 201, 46)",
+      "radius": "7px",
       "boxShadow": "none",
       "color": "rgb(255, 201, 46)",
-      "height": "20px",
+      "height": "18px",
       "top": "-13px"
     },
     "vsCss": {
-      "zIndex": "auto",
-      "className": "pv-vs",
-      "background": "rgb(15, 20, 17)",
+      "opacity": "1",
+      "zIndex": "5",
+      "className": "pv-vs is-won",
+      "background": "rgb(196, 255, 58)",
       "backgroundImage": "none",
-      "border": "1.5px solid rgb(196, 255, 58)",
-      "boxShadow": "rgba(196, 255, 58, 0.5) 0px 0px 20px 0px, rgba(196, 255, 58, 0.25) 0px 0px 12px 0px inset",
-      "textShadow": "rgba(196, 255, 58, 0.8) 0px 0px 10px",
-      "color": "rgb(196, 255, 58)",
+      "border": "0px none rgb(15, 20, 17)",
+      "boxShadow": "none",
+      "textShadow": "none",
+      "color": "rgb(15, 20, 17)",
       "size": "38x38"
     },
     "fonts": "\"IBM Plex Sans\" 400, \"IBM Plex Sans\" 500, \"IBM Plex Sans\" 600, \"IBM Plex Sans\" 700, \"Martian Mono\" 400, \"Martian Mono\" 600, \"Martian Mono\" 700, Unbounded 800, Unbounded 900"
